@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/home/myatsu/lecture1/build/lecture1_autogen",
+	"CMAKE_BINARY_DIR" : "/home/myatsu/lecture1/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/myatsu/lecture1/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/myatsu/lecture1",
+	"CMAKE_SOURCE_DIR" : "/home/myatsu/lecture1",
+	"INCLUDE_DIR" : "/home/myatsu/lecture1/build/lecture1_autogen/include",
+	"INPUTS" : [],
+	"LOCK_FILE" : "/home/myatsu/lecture1/build/CMakeFiles/lecture1_autogen.dir/AutoRcc_frame_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "frame" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_frame.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/myatsu/lecture1/build/CMakeFiles/lecture1_autogen.dir/AutoRcc_frame_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/myatsu/lecture1/frame.qrc",
+	"VERBOSITY" : 0
+}

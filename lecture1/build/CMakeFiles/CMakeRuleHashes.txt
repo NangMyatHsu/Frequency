@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+04537cafdc85471ffb64c2c6afea3044 CMakeFiles/lecture1_autogen
+5ca99fe0927432fdf10a22c097aa7f1c lecture1_autogen/EWIEGA46WW/qrc_frame.cpp

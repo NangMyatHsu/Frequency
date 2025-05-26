@@ -1,0 +1,4 @@
+/home/myatsu/lecture1/build/CMakeFiles/lecture1.dir
+/home/myatsu/lecture1/build/CMakeFiles/edit_cache.dir
+/home/myatsu/lecture1/build/CMakeFiles/rebuild_cache.dir
+/home/myatsu/lecture1/build/CMakeFiles/lecture1_autogen.dir

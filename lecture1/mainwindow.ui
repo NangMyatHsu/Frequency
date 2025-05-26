@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1152</width>
+    <height>671</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1152</width>
+    <height>671</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="ConnectButton">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>210</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>Connect</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="devicesList">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>100</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>270</y>
+      <width>411</width>
+      <height>271</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="baudrateList">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>160</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="red">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>100</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Voltage</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="blue">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>190</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Blue</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="green">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>140</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Green</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>20</y>
+      <width>331</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mega  Output Frequency Display</string>
+    </property>
+   </widget>
+   <widget class="QCustomPlot" name="plotter" native="true">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>60</y>
+      <width>521</width>
+      <height>411</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="plotButton">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>480</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Plot</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clearButton">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>480</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="closeButton">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>600</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Close</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>540</y>
+      <width>101</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Line Style</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>540</y>
+      <width>91</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Scatter Style</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="lineStyleComboBox">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>560</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>65</height>
+     </size>
+    </property>
+    <item>
+     <property name="text">
+      <string>None</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LIne</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Step Left</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Step Right</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Step Center</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Impulse</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="plotTypeComboBox">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>560</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>65</height>
+     </size>
+    </property>
+    <item>
+     <property name="text">
+      <string>None</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dot</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cross</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Plus</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Circle</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Disc</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Square</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Diamond</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Star</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Triangle</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Triangle Inverted</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cross Square</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Plus Circle</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Peace</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cross</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>30</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mega BoardInput Display</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1152</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPowerMonitor">
+    <property name="title">
+     <string>PowerMonitor</string>
+    </property>
+   </widget>
+   <addaction name="menuPowerMonitor"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header location="global">qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>closeButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>969</x>
+     <y>615</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>818</x>
+     <y>597</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
